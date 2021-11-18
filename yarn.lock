@@ -239,6 +239,19 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.1.0.tgz#7f698254aadf921e48dda8c0a6b304026b8a9323"
   integrity sha512-JLo+Y592QzIE+q7Dl2pMUtt4q8SKYI5jDrZxrozEQxnGVOyYE+GWK9eLkwTaeN9DDctlaRAQ3TBmzZ1qdLE30A==
 
+"@typeform/embed-react@^1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@typeform/embed-react/-/embed-react-1.1.3.tgz#f668df9c17573453222a0d3e006f4d9eaf266538"
+  integrity sha512-fGHGEcIu6S96m220oqvg/9pEhs0mSPJH/8Zqf+ZOw/1E6F1uN84qCyDw2ePkxygNvPAjzOw5IA207o1vGh6BNQ==
+  dependencies:
+    "@typeform/embed" "^1.10.0"
+    fast-deep-equal "^3.1.3"
+
+"@typeform/embed@^1.10.0":
+  version "1.22.1"
+  resolved "https://registry.yarnpkg.com/@typeform/embed/-/embed-1.22.1.tgz#fb9ee2a9391829f7b8dd0675d5523f136085b792"
+  integrity sha512-iaEE3JDQ9anYh8lUlo94c0TrYT8j09nRaByuOs5YHIvG+aOySAYybI7Pc7PO5WrZLlPb2Em9jVCFLPRmBqt6QA==
+
 "@types/json5@^0.0.29":
   version "0.0.29"
   resolved "https://registry.yarnpkg.com/@types/json5/-/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
@@ -811,6 +824,11 @@ damerau-levenshtein@^1.0.7:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/damerau-levenshtein/-/damerau-levenshtein-1.0.7.tgz#64368003512a1a6992593741a09a9d31a836f55d"
   integrity sha512-VvdQIPGdWP0SqFXghj79Wf/5LArmreyMsGLa6FG6iC4t3j7j5s71TrwWmT/4akbDQIqjfACkLZmjXhA7g2oUZw==
+
+dat.gui@^0.7.7:
+  version "0.7.7"
+  resolved "https://registry.yarnpkg.com/dat.gui/-/dat.gui-0.7.7.tgz#7f96dbd21621a76385203659aebfa264ee6ae89b"
+  integrity sha512-sRl/28gF/XRC5ywC9I4zriATTsQcpSsRG7seXCPnTkK8/EQMIbCu5NPMpICLGxX9ZEUvcXR3ArLYCtgreFoMDw==
 
 data-uri-to-buffer@3.0.1:
   version "3.0.1"
@@ -2759,6 +2777,11 @@ text-table@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
+
+three@^0.134.0:
+  version "0.134.0"
+  resolved "https://registry.yarnpkg.com/three/-/three-0.134.0.tgz#d7ad4d85d050da0861bf39749b06ddfb5f17157f"
+  integrity sha512-LbBerg7GaSPjYtTOnu41AMp7tV6efUNR3p4Wk5NzkSsNTBuA5mDGOfwwZL1jhhVMLx9V20HolIUo0+U3AXehbg==
 
 timers-browserify@2.0.12:
   version "2.0.12"

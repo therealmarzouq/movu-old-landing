@@ -3,7 +3,9 @@ body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif, Aventa,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 a {
@@ -13,4 +15,36 @@ a {
 
 * {
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+h1 {
+  margin-bottom: 10px;
+}
+@font-face {
+  font-family: "Aventa, sans-serif";
+  src: url("/fonts/aventa/Aventa-LightItallicPERSONALUSEONLY.otf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Aventa, sans-serif";
+  src: url("/fonts/aventa/Aventa-LightPERSONALUSEONLY.otf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Aventa, sans-serif";
+  src: url("/fonts/aventa/fonts/aventa/Aventa-Medium.otf");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Aventa, sans-serif";
+  src: url("/fonts/aventa/Aventa-Bold.otf");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
 }
